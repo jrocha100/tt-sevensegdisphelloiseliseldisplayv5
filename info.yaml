@@ -1,39 +1,39 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  wokwi_id: "481774177156248577" # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title: "Seven_Seg_Disp_Hello_ISEL_ISEL_display_v5" # Project title
+  author: "Jose Rocha" # Your name
+  discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description: "This circuit will output a string of characters ('Hello ISEL
+    ISEL') to the 7-segment display." # One line description of what your project does
+  language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz: 1 # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
+  tiles: "1x1" # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "clk"
+  ui[1]: "rst_N"
+  ui[2]: "Clear_Cnt"
+  ui[3]: "Man_4bit_word_2_SSD"
+  ui[4]: "A_MSB"
+  ui[5]: "B"
+  ui[6]: "C"
+  ui[7]: "D_LSB"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "a_7SD"
+  uo[1]: "b_7SD"
+  uo[2]: "c_7SD"
+  uo[3]: "d_7SD"
+  uo[4]: "e_7SD"
+  uo[5]: "f_7SD"
+  uo[6]: "g_7SD"
+  uo[7]: "dp_7SD"
 
   # Bidirectional pins
   uio[0]: ""
